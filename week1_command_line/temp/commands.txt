@@ -1,0 +1,20 @@
+  499  git push origin master
+  500  q
+  501  cd my_DFTProject
+  502  cd homework
+  503  cd week1_command line
+  504  cd week1_command_line
+  505  >commanline-cheatsheet.txt
+  506  mkdir temp/
+  507  cd temp/
+  508  echo "'hello world'" > hello.txt
+  509  ls ..
+  510  ps aux
+  511  kill -666
+  512  kill -9 666
+  513  printenv PATH > path.txt
+  514  find .. hello.txt
+  515  find /home -name *.png
+  516  whereis echo
+  517  man ps | grep "Select all process"
+  518  history 20 > commands.txt

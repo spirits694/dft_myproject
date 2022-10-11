@@ -1,0 +1,8 @@
+1.Log into your server via SSH using the Shell user you wish to create the 
+cron job under.
+2.Once logged in, run the command to open your crontab file.
+3.choose an editor to view this file. #6 uses the 
+program nano which is the easiest option. View the Creating and editing a 
+file via SSH article for instructions on how to use nano.
+4.Add the code for your cron job
+5.Save the file

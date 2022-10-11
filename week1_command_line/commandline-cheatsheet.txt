@@ -1,0 +1,23 @@
+  504  cd week1_command_line
+  505  >commanline-cheatsheet.txt
+  506  mkdir temp/
+  507  cd temp/
+  508  echo "'hello world'" > hello.txt
+  509  ls ..
+  510  ps aux
+  511  kill -666
+  512  kill -9 666
+  513  printenv PATH > path.txt
+  514  find .. hello.txt
+  515  find /home -name *.png
+  516  whereis echo
+  517  man ps | grep "Select all process"
+  518  history 20 > commands.txt
+  524  nano runner.sh
+  525  ./runner.sh 'hello'
+  529  ls -l runner.sh
+  530  cat runner.sh
+  531  chmod u+x runner.sh
+  532  ./runner.sh
+  533  >steps.txt
+  534  nano steps.txt
