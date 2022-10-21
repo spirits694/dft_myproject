@@ -1,0 +1,15 @@
+  340  echo "THIS IS FINE" >notes.txt
+  341  git add .
+  342  git commit -m "a fine change"
+  343  git add .
+  344  git commit --amend -m "a good change"
+  345  git log
+  346  git restore notes.txt
+  347  git add .
+  349  git commit -m "first-working"
+  350  git log
+  351  git revert e5392952d9a8ab8d17796fe84b84fdce89cadd57
+  354  git reflog
+  355  git revert b72b51b 
+  356  git reset --hard 6d9ea68
+  357  git add .
